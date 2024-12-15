@@ -1,5 +1,5 @@
 //By the Pixel Paladins: Eddie, Everett, and Alex
-//Pallid Ground™ 2024
+//Pallid Ground © 2024
 
 //MIT License
 
