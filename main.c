@@ -68,8 +68,8 @@ int avoidchance;
 int DOTcount = 0;
 int bossDOT = 0;
 
-int inventory[10] = {};
-char *inventorynames[10] = {"Fireball Rune", "Ice Rune", "Lightning Rune", "Vitality Rune"};
+int inventory[10] = {}; // Keeps track of what you have
+char *inventorynames[10] = {"Fireball Rune", "Ice Rune", "Lightning Rune", "Vitality Rune"}; //Reference Names
 
 int main() //Main Function, goes to the starting area
 { 
@@ -193,7 +193,7 @@ void stopRune(int runeNum) //Blocks a rune's usage
 {
   if (runeNum == 0)
   {
-    inventory[0] = 0;
+    inventory[0] = 0; //For example this changes item in the inventory
   }
   else if (runeNum == 1)
   {
@@ -2497,6 +2497,8 @@ void credits() //displays credits
   printf("Alex\n");
   sleep(2);
   printf("Thank you to Mrs. Brown\n");
+  sleep(2);
+  printf("Ascii Art Credit: https://easydrawingguides.com/how-to-draw-a-knight/, https://www.asciiart.eu/image-to-ascii");
   sleep(2);
   printf("Pallid Ground © 2024\n");
   sleep(2);
